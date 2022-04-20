@@ -1,0 +1,199 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #08002d;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.pink {
+  color: #d30e64;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: #2178214d;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.small-container {
+  height: 100%;
+  cursor: pointer;
+  background: #ffffff1a;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.vcenter {
+  position: relative;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.icon-holder {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.inline i {
+  cursor: pointer;
+  margin: 2px;
+  padding: 4px;
+  font-size: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.heading-text {
+  font-weight: 900;
+}
+
+.opac-20 {
+  opacity: .2;
+}
+
+.target-header {
+  width: 100%;
+  height: 200px;
+  background: gray;
+}
+
+button {
+  font-family: open sans condensed;
+  font-weight: 900;
+}
+
+.header-container {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(-100vw, 0, 0);
+}
+
+.header-items {
+  float: right;
+  display: inline-block;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.card {
+  width: 75%;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px #00000059;
+}
+
+.bar-container {
+  width: 100%;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-cyrillic-ext-400-normal.9c01ee5d.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-cyrillic-400-normal.dd6d3a7b.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-greek-ext-400-normal.a685cbd9.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+1F??;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-greek-400-normal.6b38beee.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+370-3FF;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-hebrew-400-normal.5702db0a.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-vietnamese-400-normal.30cedb49.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-latin-ext-400-normal.b78e56d6.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("open-sans-latin-400-normal.c2f5c0f9.woff2") format("woff2"), url("open-sans-all-400-normal.d11ea1c8.woff") format("woff");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*# sourceMappingURL=index.b8d345ae.css.map */
