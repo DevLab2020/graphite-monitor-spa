@@ -1,6 +1,12 @@
 <template>
-<div class="container">
+<div class="cardcontainer">
 	<div class="card">
+	<div class="padding">
+		<ChooseGraphType />
+	</div>
+<!--
+	<LineChart />
+-->
 	<BarChart />
 		<h1>{{ count }}</h1>
 	<h6>CHOOSE TIME RANGE:</h6>	
@@ -13,6 +19,8 @@
 
 
 <script>
+import LineChart from './LineChart.vue';
+import ChooseGraphType from './ChooseGraphType';
 import BarChart from './BarChart.vue';
 export default {
   name: 'Addrem',
@@ -20,7 +28,7 @@ export default {
 	count:0
 }),
 components: {
-	BarChart
+	BarChart, ChooseGraphType, LineChart
 },
 methods: {
 	oneDay(){
@@ -39,20 +47,24 @@ methods: {
 </script>
 
 <style lang="css">
-.container{
+.cardcontainer{
 	width:100%;
 	text-align:center;
 	display:flex;
 	justify-content:space-around;
 }
 .card{
-	width:75%;
-	margin-top:15px;
-	padding:15px;
+	width:415px;
+	margin-top:25px;
+	padding:0px;
+	padding-top:8px;
 	border-radius:10px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	text-align:center;
 	background:white;
 	color:#000000;
+}
+.padding{
+	padding-left:50px;
 }
 </style>

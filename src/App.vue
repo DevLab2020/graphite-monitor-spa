@@ -1,5 +1,6 @@
 <template>
 	<Slide>
+	<h6>OPTIONS</h6>
 			<span><h6>TARGETS</h6></span>
 				<h6>System Performance</h6>
 			<div class="item">
@@ -30,9 +31,6 @@
 				
 	</Slide>
 	<Addrem />
-	<div class="bar-container">
-		<BarChart/>
-	</div>
 </template>
 
 
@@ -64,12 +62,15 @@ export default {
 	}
 }
 </script>
+<style>
 .item {
 display:inline-block;
 }
-<style>
 .bar-container{
 	width:100%;
+}
+.padding{
+	padding-left:50px;
 }
 </style>
 
