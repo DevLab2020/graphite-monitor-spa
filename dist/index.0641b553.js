@@ -9796,11 +9796,11 @@ exports.default = {
         },
         width: {
             type: Number,
-            default: 400
+            default: 350
         },
         height: {
             type: Number,
-            default: 400
+            default: 350
         },
         cssClasses: {
             default: '',
@@ -47244,7 +47244,97 @@ exports.default = {
     }
 };
 
-},{"./BarChart.vue":"4iiNY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./ChooseGraphType":"6cvOx","./LineChart.vue":"cVYVN"}],"6cvOx":[function(require,module,exports) {
+},{"./LineChart.vue":"cVYVN","./ChooseGraphType":"6cvOx","./BarChart.vue":"4iiNY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cVYVN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+let script;
+let initialize = ()=>{
+    script = require('script:./LineChart.vue');
+    if (script.__esModule) script = script.default;
+    script.render = require('template:./LineChart.vue').render;
+    require('custom:./LineChart.vue').default(script);
+    script.__scopeId = 'data-v-0679a5';
+    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/LineChart.vue";
+};
+initialize();
+if (module.hot) {
+    script.__hmrId = '0679a5-hmr';
+    module.hot.accept(()=>{
+        setTimeout(()=>{
+            initialize();
+            if (!__VUE_HMR_RUNTIME__.createRecord('0679a5-hmr', script)) __VUE_HMR_RUNTIME__.reload('0679a5-hmr', script);
+        }, 0);
+    });
+}
+exports.default = script;
+
+},{"script:./LineChart.vue":"8TV5a","template:./LineChart.vue":"iG26A","custom:./LineChart.vue":"QGiE9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8TV5a":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _vueChartjs = require("vue-chartjs");
+var _chartJs = require("chart.js");
+_chartJs.Chart.register(_chartJs.Title, _chartJs.Tooltip, _chartJs.Legend, _chartJs.BarElement, _chartJs.CategoryScale, _chartJs.LinearScale);
+exports.default = {
+    name: 'LineChart',
+    components: {
+        Line: _vueChartjs.Line
+    },
+    data () {
+        return {
+            chartData: {
+                labels: [
+                    'Jan',
+                    'Feb',
+                    'Mar',
+                    'Apr',
+                    'Jun',
+                    'Jul',
+                    'Aug'
+                ],
+                datasets: [
+                    {
+                        data: [
+                            48,
+                            100,
+                            82,
+                            69,
+                            91,
+                            63,
+                            113
+                        ],
+                        backgroundcolor: "#f87979"
+                    }
+                ]
+            }
+        };
+    }
+};
+
+},{"vue-chartjs":"7lbSG","chart.js":"khwgE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iG26A":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "render", ()=>render
+);
+var _vue = require("vue");
+function render(_ctx, _cache) {
+    const _component_Line = _vue.resolveComponent("Line");
+    return _vue.openBlock(), _vue.createBlock(_component_Line, {
+        "chart-data": _ctx.chartData
+    }, null, 8 /* PROPS */ , [
+        "chart-data"
+    ]);
+}
+if (module.hot) module.hot.accept(()=>{
+    __VUE_HMR_RUNTIME__.rerender('0679a5-hmr', render);
+});
+
+},{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"QGiE9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+let NOOP = ()=>{};
+exports.default = (script)=>{};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6cvOx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 let script;
@@ -47269,7 +47359,7 @@ if (module.hot) {
 }
 exports.default = script;
 
-},{"script:./ChooseGraphType.vue":"dNdCM","template:./ChooseGraphType.vue":"7TQUr","custom:./ChooseGraphType.vue":"84WAC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","style:./ChooseGraphType.vue":"a0W45"}],"dNdCM":[function(require,module,exports) {
+},{"script:./ChooseGraphType.vue":"dNdCM","template:./ChooseGraphType.vue":"7TQUr","style:./ChooseGraphType.vue":"a0W45","custom:./ChooseGraphType.vue":"84WAC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dNdCM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _fontawesomeSvgCore = require("@fortawesome/fontawesome-svg-core");
@@ -73338,103 +73428,13 @@ if (module.hot) module.hot.accept(()=>{
     __VUE_HMR_RUNTIME__.rerender('3e031d-hmr', render);
 });
 
-},{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"84WAC":[function(require,module,exports) {
+},{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0W45":[function() {},{}],"84WAC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 let NOOP = ()=>{};
 exports.default = (script)=>{};
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0W45":[function() {},{}],"cVYVN":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-let script;
-let initialize = ()=>{
-    script = require('script:./LineChart.vue');
-    if (script.__esModule) script = script.default;
-    script.render = require('template:./LineChart.vue').render;
-    require('custom:./LineChart.vue').default(script);
-    script.__scopeId = 'data-v-0679a5';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/LineChart.vue";
-};
-initialize();
-if (module.hot) {
-    script.__hmrId = '0679a5-hmr';
-    module.hot.accept(()=>{
-        setTimeout(()=>{
-            initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('0679a5-hmr', script)) __VUE_HMR_RUNTIME__.reload('0679a5-hmr', script);
-        }, 0);
-    });
-}
-exports.default = script;
-
-},{"script:./LineChart.vue":"8TV5a","custom:./LineChart.vue":"QGiE9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","template:./LineChart.vue":"iG26A"}],"8TV5a":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _vueChartjs = require("vue-chartjs");
-var _chartJs = require("chart.js");
-_chartJs.Chart.register(_chartJs.Title, _chartJs.Tooltip, _chartJs.Legend, _chartJs.BarElement, _chartJs.CategoryScale, _chartJs.LinearScale);
-exports.default = {
-    name: 'LineChart',
-    components: {
-        Line: _vueChartjs.Line
-    },
-    data () {
-        return {
-            chartData: {
-                labels: [
-                    'Jan',
-                    'Feb',
-                    'Mar',
-                    'Apr',
-                    'Jun',
-                    'Jul',
-                    'Aug'
-                ],
-                datasets: [
-                    {
-                        data: [
-                            48,
-                            100,
-                            82,
-                            69,
-                            91,
-                            63,
-                            113
-                        ],
-                        backgroundcolor: "#f87979"
-                    }
-                ]
-            }
-        };
-    }
-};
-
-},{"vue-chartjs":"7lbSG","chart.js":"khwgE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"QGiE9":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-let NOOP = ()=>{};
-exports.default = (script)=>{};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iG26A":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "render", ()=>render
-);
-var _vue = require("vue");
-function render(_ctx, _cache) {
-    const _component_Line = _vue.resolveComponent("Line");
-    return _vue.openBlock(), _vue.createBlock(_component_Line, {
-        "chart-data": _ctx.chartData
-    }, null, 8 /* PROPS */ , [
-        "chart-data"
-    ]);
-}
-if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('0679a5-hmr', render);
-});
-
-},{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fKZHc":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fKZHc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "render", ()=>render

@@ -32,11 +32,11 @@ export default {
     },
     width: {
       type: Number,
-      default: 400
+      default: 350
     },
     height: {
       type: Number,
-      default: 400
+      default: 350
     },
     cssClasses: {
       default: '',

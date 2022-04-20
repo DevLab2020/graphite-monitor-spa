@@ -54,7 +54,7 @@ methods: {
 	justify-content:space-around;
 }
 .card{
-	width:415px;
+	width:390px;
 	margin-top:25px;
 	padding:0px;
 	padding-top:8px;
@@ -65,6 +65,6 @@ methods: {
 	color:#000000;
 }
 .padding{
-	padding-left:50px;
+	margin-left:50px;
 }
 </style>
