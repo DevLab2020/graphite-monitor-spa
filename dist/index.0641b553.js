@@ -9699,16 +9699,16 @@ let initialize = ()=>{
     script.render = require('template:./App.vue').render;
     script.__cssModules = require('style:./App.vue').default;
     require('custom:./App.vue').default(script);
-    script.__scopeId = 'data-v-970c1c';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/App.vue";
+    script.__scopeId = 'data-v-a9cb3e';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/App.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = '970c1c-hmr';
+    script.__hmrId = 'a9cb3e-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('970c1c-hmr', script)) __VUE_HMR_RUNTIME__.reload('970c1c-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('a9cb3e-hmr', script)) __VUE_HMR_RUNTIME__.reload('a9cb3e-hmr', script);
         }, 0);
     });
 }
@@ -9759,16 +9759,16 @@ let initialize = ()=>{
     if (script.__esModule) script = script.default;
     script.render = require('template:./BarChart.vue').render;
     require('custom:./BarChart.vue').default(script);
-    script.__scopeId = 'data-v-c93b31';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/BarChart.vue";
+    script.__scopeId = 'data-v-4501b4';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/BarChart.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = 'c93b31-hmr';
+    script.__hmrId = '4501b4-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('c93b31-hmr', script)) __VUE_HMR_RUNTIME__.reload('c93b31-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('4501b4-hmr', script)) __VUE_HMR_RUNTIME__.reload('4501b4-hmr', script);
         }, 0);
     });
 }
@@ -22854,7 +22854,7 @@ function render(_ctx, _cache) {
     ]);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('c93b31-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('4501b4-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4PoTO":[function(require,module,exports) {
@@ -22872,16 +22872,16 @@ let initialize = ()=>{
     if (script.__esModule) script = script.default;
     script.render = require('template:./MainChart.vue').render;
     require('custom:./MainChart.vue').default(script);
-    script.__scopeId = 'data-v-ec0ba6';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/MainChart.vue";
+    script.__scopeId = 'data-v-b26b7b';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/MainChart.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = 'ec0ba6-hmr';
+    script.__hmrId = 'b26b7b-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('ec0ba6-hmr', script)) __VUE_HMR_RUNTIME__.reload('ec0ba6-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('b26b7b-hmr', script)) __VUE_HMR_RUNTIME__.reload('b26b7b-hmr', script);
         }, 0);
     });
 }
@@ -47107,7 +47107,7 @@ function render(_ctx, _cache) {
     ]);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('ec0ba6-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('b26b7b-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9JXpd":[function(require,module,exports) {
@@ -47126,16 +47126,16 @@ let initialize = ()=>{
     script.render = require('template:./Menu.vue').render;
     script.__cssModules = require('style:./Menu.vue').default;
     require('custom:./Menu.vue').default(script);
-    script.__scopeId = 'data-v-93b5cb';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/Menu.vue";
+    script.__scopeId = 'data-v-07930e';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/Menu.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = '93b5cb-hmr';
+    script.__hmrId = '07930e-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('93b5cb-hmr', script)) __VUE_HMR_RUNTIME__.reload('93b5cb-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('07930e-hmr', script)) __VUE_HMR_RUNTIME__.reload('07930e-hmr', script);
         }, 0);
     });
 }
@@ -47177,7 +47177,7 @@ function render(_ctx, _cache) {
     return _vue.openBlock(), _vue.createElementBlock("div", _hoisted_1, _hoisted_3);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('93b5cb-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('07930e-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"XYMfB":[function() {},{}],"cTjTs":[function(require,module,exports) {
@@ -47196,16 +47196,16 @@ let initialize = ()=>{
     script.render = require('template:./addrem.vue').render;
     script.__cssModules = require('style:./addrem.vue').default;
     require('custom:./addrem.vue').default(script);
-    script.__scopeId = 'data-v-fb7287';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/addrem.vue";
+    script.__scopeId = 'data-v-1a4b05';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/addrem.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = 'fb7287-hmr';
+    script.__hmrId = '1a4b05-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('fb7287-hmr', script)) __VUE_HMR_RUNTIME__.reload('fb7287-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('1a4b05-hmr', script)) __VUE_HMR_RUNTIME__.reload('1a4b05-hmr', script);
         }, 0);
     });
 }
@@ -47253,16 +47253,16 @@ let initialize = ()=>{
     if (script.__esModule) script = script.default;
     script.render = require('template:./LineChart.vue').render;
     require('custom:./LineChart.vue').default(script);
-    script.__scopeId = 'data-v-0679a5';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/LineChart.vue";
+    script.__scopeId = 'data-v-3e9359';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/LineChart.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = '0679a5-hmr';
+    script.__hmrId = '3e9359-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('0679a5-hmr', script)) __VUE_HMR_RUNTIME__.reload('0679a5-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('3e9359-hmr', script)) __VUE_HMR_RUNTIME__.reload('3e9359-hmr', script);
         }, 0);
     });
 }
@@ -47325,7 +47325,7 @@ function render(_ctx, _cache) {
     ]);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('0679a5-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('3e9359-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"QGiE9":[function(require,module,exports) {
@@ -47344,16 +47344,16 @@ let initialize = ()=>{
     script.render = require('template:./ChooseGraphType.vue').render;
     script.__cssModules = require('style:./ChooseGraphType.vue').default;
     require('custom:./ChooseGraphType.vue').default(script);
-    script.__scopeId = 'data-v-3e031d';
-    script.__file = "/home/DevLab2020/project/graphite-monitor-spa/src/ChooseGraphType.vue";
+    script.__scopeId = 'data-v-04454e';
+    script.__file = "/home/DevLab2020/workingBranch/graphite-monitor-spa/src/ChooseGraphType.vue";
 };
 initialize();
 if (module.hot) {
-    script.__hmrId = '3e031d-hmr';
+    script.__hmrId = '04454e-hmr';
     module.hot.accept(()=>{
         setTimeout(()=>{
             initialize();
-            if (!__VUE_HMR_RUNTIME__.createRecord('3e031d-hmr', script)) __VUE_HMR_RUNTIME__.reload('3e031d-hmr', script);
+            if (!__VUE_HMR_RUNTIME__.createRecord('04454e-hmr', script)) __VUE_HMR_RUNTIME__.reload('04454e-hmr', script);
         }, 0);
     });
 }
@@ -73425,7 +73425,7 @@ function render(_ctx, _cache) {
     ]);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('3e031d-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('04454e-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a0W45":[function() {},{}],"84WAC":[function(require,module,exports) {
@@ -73478,7 +73478,7 @@ function render(_ctx, _cache) {
     ]);
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('fb7287-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('1a4b05-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2gM2A":[function() {},{}],"9ucXt":[function(require,module,exports) {
@@ -74880,7 +74880,7 @@ function render(_ctx, _cache) {
     ], 64 /* STABLE_FRAGMENT */ );
 }
 if (module.hot) module.hot.accept(()=>{
-    __VUE_HMR_RUNTIME__.rerender('970c1c-hmr', render);
+    __VUE_HMR_RUNTIME__.rerender('a9cb3e-hmr', render);
 });
 
 },{"vue":"gzxs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1aWWh":[function() {},{}],"h0MjM":[function(require,module,exports) {
